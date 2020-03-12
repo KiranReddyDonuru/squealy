@@ -17,7 +17,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 
-from pyathenajdbc import connect
+#from pyathenajdbc import connect
 
 from squealy.constants import SQL_WRITE_BLACKLIST, SWAGGER_JSON_TEMPLATE, SWAGGER_DICT
 from squealy.jinjasql_loader import configure_jinjasql
